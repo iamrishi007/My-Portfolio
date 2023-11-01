@@ -1,0 +1,592 @@
+/* Style the navigation bar */
+
+body {
+
+          background-color: #343f4f;
+
+}
+
+.navbar {
+          /* border: 1px solid red; */
+          overflow: hidden;
+          height: 60px;
+          text-align: center;
+          align-content: center;
+          margin-top: 20px;
+          background: transparent;
+          position: sticky;
+          top: 0;
+          background-color: black;
+
+}
+
+/* Navigation bar links displayed horizontally */
+
+.navbar a {
+          float: left;
+          display: block;
+          color: aqua;
+          text-align: center;
+          padding: 20px 40px;
+          text-decoration: none;
+          font-size: 20px;
+          font-family: Georgia, serif;
+
+
+}
+
+
+.navbar a:hover {
+          background-color: #343f4f;
+          padding-bottom: 50px;
+
+}
+
+
+/* Main Section */
+
+#main {
+          display: flex;
+          height: 500px;
+          width: 90%;
+          margin: auto;
+          padding: 20px;
+          margin-top: 70px;
+          background-color: #343f4f;
+
+
+}
+
+#main>div {
+          /* border: 2px solid green; */
+          height: 500px;
+          width: 100%;
+          padding-left: 10px;
+
+}
+
+.content {
+          color: white;
+          /* border: 1px solid pink; */
+          font-size: 20px;
+          margin-right: 10px;
+}
+
+/* Social Media Section */
+
+.fa-brands {
+          font-size: 25px;
+          margin-top: 10px;
+
+}
+
+.fa-github {
+
+          color: black;
+          padding-left: 10px;
+          padding-right: 10px;
+}
+
+.fa-linkedin {
+
+          color: blue;
+          padding-left: 10px;
+          padding-right: 10px;
+}
+
+.fa-x-twitter {
+          color: black;
+          padding-left: 10px;
+          padding-right: 10px;
+}
+
+.fa-phone-volume {
+          color: lightskyblue;
+          padding-left: 10px;
+          padding-right: 10px;
+}
+
+.fa-instagram {
+          color: fuchsia;
+          padding-left: 10px;
+          padding-right: 10px;
+}
+
+/* Hero Image In Div */
+
+#main>div>img {
+
+
+          height: 400px;
+          margin-left: 20%;
+          margin-top: 6%;
+          /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+          /* animation: bouncing 20ms ease-out 10ms infinite; */
+}
+
+
+/* Bouncing image animation */
+
+.img {
+          animation: bounce 2s ease infinite;
+          transform-origin: center bottom;
+          /* border: 1px solid blue; */
+          margin-left: 10px;
+
+}
+
+@keyframes bounce {
+
+          0%,
+          100% {
+                    transform: translateY(0);
+          }
+
+          50% {
+                    transform: translateY(-20px);
+
+          }
+}
+
+
+
+.content>p>span {
+
+          font-size: 30px;
+          font-family: system-ui;
+          color: gold;
+}
+
+.content>p {
+          font-family: cursive;
+          font-size: 23px;
+
+}
+
+
+#main>div>h2 {
+          color: aqua;
+          animation: typing 7s infinite forwards;
+          width: 0%;
+          overflow: hidden;
+          white-space: nowrap;
+          font-size: 25px;
+          font-family: cursive;
+
+}
+
+@keyframes typing {
+
+          0% {
+                    width: 0ch;
+          }
+
+          50% {
+                    width: 17ch;
+          }
+}
+
+#main>div>h1 {
+          color: gold;
+          animation: text 9s infinite;
+          width: 0%;
+          overflow: hidden;
+          white-space: nowrap;
+          font-weight: bold;
+          font-family: system-ui;
+}
+
+@keyframes text {
+
+          0% {
+                    width: 0ch;
+          }
+
+          50% {
+                    width: 17ch;
+          }
+}
+
+
+
+#highlight1 {
+          text-align: center;
+          font-size: 25px;
+          font-family: sans-serif;
+          margin-top: 60px;
+
+}
+
+#highlight1>h1 {
+          color: white;
+}
+
+#highlight1>h1>span {
+          color: aqua;
+}
+
+
+
+/* About Me  */
+
+
+#highlight2 {
+          text-align: center;
+          font-size: 25px;
+          font-family: sans-serif;
+          margin-top: 60px;
+
+}
+
+#highlight2>h1 {
+          color: white;
+}
+
+#highlight2>h1>span {
+          color: aqua;
+}
+
+
+#about {
+          display: flex;
+          height: 500px;
+          width: 90%;
+          padding: 10px;
+          margin: auto;
+          margin-top: 50px;
+}
+
+#about>div {
+
+          height: 400px;
+          width: 100%;
+          margin-top: 20px;
+}
+
+#about>div>img {
+          height: 400px;
+          margin-left: 20%;
+
+}
+
+.about-me {
+
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.info>div {
+          border: 1px solid green;
+          height: 20px;
+}
+
+.info>div>p {
+          border: 1px solid green;
+
+}
+
+.info>p {
+          animation: bounce 5s ease infinite;
+          transform-origin: center bottom;
+          margin-left: 15px;
+          font-size: 25px;
+          color: white;
+          font-family: cursive;
+          color: lightskyblue;
+}
+
+.info>p>span {
+          color: goldenrod;
+}
+
+@keyframes bounce {
+
+          0%,
+          100% {
+                    transform: translateY(0);
+          }
+
+          50% {
+                    transform: translateY(-5px);
+
+          }
+}
+
+
+/* Projects Sections */
+
+
+#highlight3 {
+          text-align: center;
+          font-size: 25px;
+          font-family: sans-serif;
+          margin-top: 60px;
+
+}
+
+#highlight3>h1 {
+          color: white;
+}
+
+#highlight3>h1>span {
+          color: aqua;
+}
+
+
+#projects {
+
+          /* border: 2px solid red; */
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          margin: auto;
+          margin-top: 40px;
+          width: 90%;
+          margin-bottom: 20px;
+          gap: 10px;
+          padding: 10px;
+}
+
+
+
+#projects>div {
+          text-align: center;
+          font-size: 20px;
+          color: goldenrod;
+
+}
+
+#projects>div>video {
+          width: 100%;
+          height: auto;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.exp {
+          padding-left: 70px;
+          color: white;
+          font-size: 18px;
+}
+
+.exp>span {
+          color: aqua;
+          padding-left: 5px;
+          padding-right: 8px;
+          font-size: 25px;
+}
+
+
+/* Tools */
+
+
+#tools {
+
+          display: grid;
+          width: 90%;
+          gap: 30px;
+          padding: 20px;
+          margin: auto;
+          margin-top: 50px;
+          grid-template-columns: repeat(3, 1fr);
+          padding-bottom: 20px;
+}
+
+
+
+#tools>div>img {
+          height: 80px;
+          width: auto;
+          padding-left: 175px;
+          padding-top: 30px;
+          transition: transform .5s ease-in-out;
+}
+
+#tools>div>img:hover {
+          transform: rotate(5deg);
+          padding-bottom: 5px;
+          cursor: pointer;
+
+
+}
+
+#tools>div>p {
+          color: goldenrod;
+          text-align: center;
+}
+
+
+
+/* GitHub Contribution Section */
+
+
+#highlight4 {
+          text-align: center;
+          font-size: 25px;
+          font-family: sans-serif;
+          margin-top: 60px;
+
+}
+
+#highlight4>h1 {
+          color: white;
+}
+
+#highlight4>h1>span {
+          color: aqua;
+}
+
+
+#git {
+          height: 250px;
+          width: 80%;
+          margin: auto;
+          margin-top: 30px;
+
+}
+
+#git>img {
+          width: 100%;
+          margin: auto;
+          margin-top: 10px;
+          box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+#contact {
+          height: 650px;
+          width: 80%;
+          padding: 20px;
+          margin: auto;
+          margin-top: 30px;
+          display: flex;
+}
+
+#contact>div {
+          width: 45%;
+          height: 650px;
+          padding-left: 10px;
+          margin: auto;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+#contact>div>i {
+          color: #4169e1;
+          font-size: 22px;
+          padding-top: 40px;
+          padding-left: 15px;
+}
+
+#contact>div>i>span {
+          color: lightblue;
+          padding-left: 30px;
+          font-size: 15px;
+          font-family: sans-serif;
+}
+
+
+/* Connect Me Form Section */
+
+#highlight5 {
+          text-align: center;
+          font-size: 25px;
+          font-family: sans-serif;
+          margin-top: 60px;
+
+}
+
+#highlight5>h1 {
+          color: white;
+}
+
+#highlight5>h1>span {
+          color: aqua;
+}
+
+
+.form>h2 {
+          text-align: center;
+          color: goldenrod;
+          font-size: 28px;
+
+}
+
+.form>h3 {
+          text-align: center;
+          color: goldenrod;
+          margin-top: 40px;
+          font-size: 28px;
+}
+
+#mail {
+          color: #343f4f;
+}
+
+.massage {
+          height: 200px;
+          margin: auto;
+          color: #343f4f;
+
+}
+
+.massage>input {
+          height: 30px;
+          margin: auto;
+          margin-top: -50px;
+          padding-bottom: 180px;
+          padding-right: 60%;
+          color: white;
+          margin-left: 20px;
+          padding-left: 10px;
+          border: 2px solid white;
+          border-radius: 7px;
+          background-color: #343f4f;
+
+}
+
+.form>p {
+          text-align: center;
+          color: lightblue;
+          font-size: 20px;
+}
+
+.form>label {
+          margin-top: 20px;
+          padding: 20px;
+          color: goldenrod;
+          font-size: 20px;
+}
+
+.form>input {
+          margin-top: 20px;
+          padding-left: 50px;
+          height: 50px;
+          width: 60%;
+          border-radius: 40px;
+          color: lightblue;
+          background-color: #343f4f;
+          border: 2px solid white;
+
+}
+
+.send {
+          margin-left: 200px;
+          margin-top: 15px;
+          padding-left: 50px;
+          padding-right: 50px;
+          height: 50px;
+          font-size: 18px;
+          border-radius: 30px;
+          color: goldenrod;
+          border: 1px solid white;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.end {
+          text-align: center;
+          margin-bottom: 20px;
+          color: white;
+          font-size: 20px;
+}
